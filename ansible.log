@@ -1,0 +1,975 @@
+2018-07-02 00:57:17,935 p=7277 u=kvnblue |  PLAY [kvnblue-VirtualBox] ******************************************************
+2018-07-02 00:57:17,997 p=7277 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 00:57:22,692 p=7277 u=kvnblue |  ok: [kvnblue-VirtualBox]
+2018-07-02 00:57:22,759 p=7277 u=kvnblue |  TASK [nodejs : copy tar file to nodejs folder] *********************************
+2018-07-02 00:57:28,247 p=7277 u=kvnblue |  changed: [kvnblue-VirtualBox]
+2018-07-02 00:57:28,261 p=7277 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 00:57:28,262 p=7277 u=kvnblue |  kvnblue-VirtualBox         : ok=2    changed=1    unreachable=0    failed=0   
+2018-07-02 01:00:14,398 p=7453 u=kvnblue |  PLAY [kvnblue-VirtualBox] ******************************************************
+2018-07-02 01:00:14,499 p=7453 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 01:00:20,034 p=7453 u=kvnblue |  ok: [kvnblue-VirtualBox]
+2018-07-02 01:00:20,103 p=7453 u=kvnblue |  TASK [nodejs : copy tar file to nodejs folder] *********************************
+2018-07-02 01:00:23,754 p=7453 u=kvnblue |  ok: [kvnblue-VirtualBox]
+2018-07-02 01:00:23,832 p=7453 u=kvnblue |  TASK [nodejs : Extract the tar file] *******************************************
+2018-07-02 01:00:47,679 p=7453 u=kvnblue |  changed: [kvnblue-VirtualBox]
+2018-07-02 01:00:47,707 p=7453 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 01:00:47,710 p=7453 u=kvnblue |  kvnblue-VirtualBox         : ok=3    changed=1    unreachable=0    failed=0   
+2018-07-02 01:52:38,252 p=8747 u=kvnblue |  - ./roles/Esm was created successfully
+2018-07-02 02:05:41,587 p=8896 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:05:41,646 p=8896 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:05:44,605 p=8896 u=kvnblue |  ok: [localhost]
+2018-07-02 02:05:44,676 p=8896 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:05:48,030 p=8896 u=kvnblue |  changed: [localhost]
+2018-07-02 02:05:48,059 p=8896 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:05:48,059 p=8896 u=kvnblue |  localhost                  : ok=2    changed=1    unreachable=0    failed=0   
+2018-07-02 02:07:59,691 p=9025 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:07:59,746 p=9025 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:08:02,527 p=9025 u=kvnblue |  ok: [localhost]
+2018-07-02 02:08:02,603 p=9025 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:08:05,301 p=9025 u=kvnblue |  ok: [localhost]
+2018-07-02 02:08:05,376 p=9025 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:08:10,374 p=9025 u=kvnblue |  changed: [localhost]
+2018-07-02 02:08:10,390 p=9025 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:08:10,391 p=9025 u=kvnblue |  localhost                  : ok=3    changed=1    unreachable=0    failed=0   
+2018-07-02 02:13:54,060 p=9232 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:13:54,119 p=9232 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:13:56,904 p=9232 u=kvnblue |  ok: [localhost]
+2018-07-02 02:13:56,971 p=9232 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:13:59,739 p=9232 u=kvnblue |  ok: [localhost]
+2018-07-02 02:13:59,815 p=9232 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:14:03,822 p=9232 u=kvnblue |  ok: [localhost]
+2018-07-02 02:14:03,900 p=9232 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 02:14:18,155 p=9232 u=kvnblue |  changed: [localhost]
+2018-07-02 02:14:18,173 p=9232 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:14:18,173 p=9232 u=kvnblue |  localhost                  : ok=4    changed=1    unreachable=0    failed=0   
+2018-07-02 02:17:53,215 p=9711 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:17:53,283 p=9711 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:17:56,518 p=9711 u=kvnblue |  ok: [localhost]
+2018-07-02 02:17:56,590 p=9711 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:17:59,689 p=9711 u=kvnblue |  ok: [localhost]
+2018-07-02 02:17:59,776 p=9711 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:18:04,007 p=9711 u=kvnblue |  ok: [localhost]
+2018-07-02 02:18:04,092 p=9711 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 02:18:19,963 p=9711 u=kvnblue |  ok: [localhost]
+2018-07-02 02:18:20,052 p=9711 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 02:18:21,397 p=9711 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.010877", "end": "2018-07-02 02:18:21.320368", "msg": "non-zero return code", "rc": 126, "start": "2018-07-02 02:18:21.309491", "stderr": "/bin/sh: 1: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh: Permission denied", "stderr_lines": ["/bin/sh: 1: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh: Permission denied"], "stdout": "", "stdout_lines": []}
+2018-07-02 02:18:21,418 p=9711 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:18:21,419 p=9711 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:18:21,419 p=9711 u=kvnblue |  localhost                  : ok=4    changed=0    unreachable=0    failed=1   
+2018-07-02 02:22:52,091 p=10189 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:22:52,153 p=10189 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:22:54,918 p=10189 u=kvnblue |  ok: [localhost]
+2018-07-02 02:22:54,982 p=10189 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:22:57,720 p=10189 u=kvnblue |  ok: [localhost]
+2018-07-02 02:22:57,798 p=10189 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:23:03,099 p=10189 u=kvnblue |  changed: [localhost]
+2018-07-02 02:23:03,178 p=10189 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 02:23:17,217 p=10189 u=kvnblue |  ok: [localhost]
+2018-07-02 02:23:17,292 p=10189 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 02:23:18,496 p=10189 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.013857", "end": "2018-07-02 02:23:18.415151", "msg": "non-zero return code", "rc": 126, "start": "2018-07-02 02:23:18.401294", "stderr": "/bin/sh: 1: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh: Permission denied", "stderr_lines": ["/bin/sh: 1: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh: Permission denied"], "stdout": "", "stdout_lines": []}
+2018-07-02 02:23:18,506 p=10189 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:23:18,506 p=10189 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:23:18,516 p=10189 u=kvnblue |  localhost                  : ok=4    changed=1    unreachable=0    failed=1   
+2018-07-02 02:30:25,105 p=10678 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:30:25,167 p=10678 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:30:27,942 p=10678 u=kvnblue |  ok: [localhost]
+2018-07-02 02:30:28,006 p=10678 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:30:30,709 p=10678 u=kvnblue |  ok: [localhost]
+2018-07-02 02:30:30,789 p=10678 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:30:34,682 p=10678 u=kvnblue |  ok: [localhost]
+2018-07-02 02:30:34,759 p=10678 u=kvnblue |  TASK [Esm : change file permissions] *******************************************
+2018-07-02 02:30:35,516 p=10678 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "file (/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/startup.sh) is absent, cannot continue", "path": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/startup.sh", "state": "absent"}
+2018-07-02 02:30:35,551 p=10678 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:30:35,552 p=10678 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:30:35,552 p=10678 u=kvnblue |  localhost                  : ok=3    changed=0    unreachable=0    failed=1   
+2018-07-02 02:31:14,501 p=10850 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:31:14,561 p=10850 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:31:17,319 p=10850 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:17,389 p=10850 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:31:20,090 p=10850 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:20,171 p=10850 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:31:24,100 p=10850 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:24,175 p=10850 u=kvnblue |  TASK [Esm : change file permissions] *******************************************
+2018-07-02 02:31:24,889 p=10850 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "file (/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/*) is absent, cannot continue", "path": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/*", "state": "absent"}
+2018-07-02 02:31:24,903 p=10850 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:31:24,906 p=10850 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:31:24,907 p=10850 u=kvnblue |  localhost                  : ok=3    changed=0    unreachable=0    failed=1   
+2018-07-02 02:31:40,345 p=11020 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:31:40,405 p=11020 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:31:43,264 p=11020 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:43,322 p=11020 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:31:46,170 p=11020 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:46,241 p=11020 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:31:50,322 p=11020 u=kvnblue |  ok: [localhost]
+2018-07-02 02:31:50,427 p=11020 u=kvnblue |  TASK [Esm : change file permissions] *******************************************
+2018-07-02 02:31:51,149 p=11020 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "file (/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/) is absent, cannot continue", "path": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src.tar.gz/bin/", "state": "absent"}
+2018-07-02 02:31:51,163 p=11020 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:31:51,163 p=11020 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:31:51,163 p=11020 u=kvnblue |  localhost                  : ok=3    changed=0    unreachable=0    failed=1   
+2018-07-02 02:32:34,007 p=11193 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:32:34,061 p=11193 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:32:36,843 p=11193 u=kvnblue |  ok: [localhost]
+2018-07-02 02:32:36,915 p=11193 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:32:39,674 p=11193 u=kvnblue |  ok: [localhost]
+2018-07-02 02:32:39,753 p=11193 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:32:43,662 p=11193 u=kvnblue |  ok: [localhost]
+2018-07-02 02:32:43,754 p=11193 u=kvnblue |  TASK [Esm : change file permissions] *******************************************
+2018-07-02 02:32:44,462 p=11193 u=kvnblue |  changed: [localhost]
+2018-07-02 02:32:44,537 p=11193 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 02:32:58,785 p=11193 u=kvnblue |  ok: [localhost]
+2018-07-02 02:32:58,855 p=11193 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 02:33:00,071 p=11193 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.019284", "end": "2018-07-02 02:32:59.997486", "msg": "non-zero return code", "rc": 1, "start": "2018-07-02 02:32:59.978202", "stderr": "", "stderr_lines": [], "stdout": "Cannot find /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh\nThe file is absent or does not have execute permission\nThis file is needed to run this program", "stdout_lines": ["Cannot find /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh", "The file is absent or does not have execute permission", "This file is needed to run this program"]}
+2018-07-02 02:33:00,095 p=11193 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:33:00,095 p=11193 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:33:00,095 p=11193 u=kvnblue |  localhost                  : ok=5    changed=1    unreachable=0    failed=1   
+2018-07-02 02:33:54,675 p=11661 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 02:33:54,731 p=11661 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 02:33:57,475 p=11661 u=kvnblue |  ok: [localhost]
+2018-07-02 02:33:57,544 p=11661 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 02:34:00,297 p=11661 u=kvnblue |  ok: [localhost]
+2018-07-02 02:34:00,375 p=11661 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 02:34:05,553 p=11661 u=kvnblue |  changed: [localhost]
+2018-07-02 02:34:05,627 p=11661 u=kvnblue |  TASK [Esm : change startup.sh file permissions] ********************************
+2018-07-02 02:34:06,347 p=11661 u=kvnblue |  changed: [localhost]
+2018-07-02 02:34:06,423 p=11661 u=kvnblue |  TASK [Esm : change catalina.sh file permissions] *******************************
+2018-07-02 02:34:07,128 p=11661 u=kvnblue |  changed: [localhost]
+2018-07-02 02:34:07,209 p=11661 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 02:34:21,475 p=11661 u=kvnblue |  ok: [localhost]
+2018-07-02 02:34:21,548 p=11661 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 02:34:22,811 p=11661 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.032710", "end": "2018-07-02 02:34:22.723227", "msg": "non-zero return code", "rc": 1, "start": "2018-07-02 02:34:22.690517", "stderr": "", "stderr_lines": [], "stdout": "Neither the JAVA_HOME nor the JRE_HOME environment variable is defined\nAt least one of these environment variable is needed to run this program", "stdout_lines": ["Neither the JAVA_HOME nor the JRE_HOME environment variable is defined", "At least one of these environment variable is needed to run this program"]}
+2018-07-02 02:34:22,825 p=11661 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 02:34:22,826 p=11661 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 02:34:22,826 p=11661 u=kvnblue |  localhost                  : ok=6    changed=3    unreachable=0    failed=1   
+2018-07-02 03:52:56,543 p=2358 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 03:52:56,591 p=2358 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 03:52:57,521 p=2358 u=kvnblue |  ok: [localhost]
+2018-07-02 03:52:57,544 p=2358 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 03:52:58,458 p=2358 u=kvnblue |  ok: [localhost]
+2018-07-02 03:52:58,508 p=2358 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 03:53:00,974 p=2358 u=kvnblue |  changed: [localhost]
+2018-07-02 03:53:01,024 p=2358 u=kvnblue |  TASK [Esm : change startup.sh file permissions] ********************************
+2018-07-02 03:53:01,280 p=2358 u=kvnblue |  changed: [localhost]
+2018-07-02 03:53:01,332 p=2358 u=kvnblue |  TASK [Esm : change catalina.sh file permissions] *******************************
+2018-07-02 03:53:01,578 p=2358 u=kvnblue |  changed: [localhost]
+2018-07-02 03:53:01,618 p=2358 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 03:53:06,086 p=2358 u=kvnblue |  ok: [localhost]
+2018-07-02 03:53:06,130 p=2358 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 03:53:06,540 p=2358 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.009759", "end": "2018-07-02 03:53:06.516392", "msg": "non-zero return code", "rc": 2, "start": "2018-07-02 03:53:06.506633", "stderr": "touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory\n/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent", "stderr_lines": ["touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory", "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent"], "stdout": "", "stdout_lines": []}
+2018-07-02 03:53:06,544 p=2358 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 03:53:06,544 p=2358 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 03:53:06,544 p=2358 u=kvnblue |  localhost                  : ok=6    changed=3    unreachable=0    failed=1   
+2018-07-02 03:54:51,540 p=3124 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 03:54:51,571 p=3124 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 03:54:52,496 p=3124 u=kvnblue |  ok: [localhost]
+2018-07-02 03:54:52,533 p=3124 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 03:54:53,417 p=3124 u=kvnblue |  ok: [localhost]
+2018-07-02 03:54:53,457 p=3124 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 03:54:55,166 p=3124 u=kvnblue |  changed: [localhost]
+2018-07-02 03:54:55,210 p=3124 u=kvnblue |  TASK [Esm : change startup.sh file permissions] ********************************
+2018-07-02 03:54:55,479 p=3124 u=kvnblue |  changed: [localhost]
+2018-07-02 03:54:55,529 p=3124 u=kvnblue |  TASK [Esm : change catalina.sh file permissions] *******************************
+2018-07-02 03:54:55,779 p=3124 u=kvnblue |  changed: [localhost]
+2018-07-02 03:54:55,828 p=3124 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 03:55:00,272 p=3124 u=kvnblue |  ok: [localhost]
+2018-07-02 03:55:00,312 p=3124 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 03:55:00,742 p=3124 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.015621", "end": "2018-07-02 03:55:00.718321", "msg": "non-zero return code", "rc": 2, "start": "2018-07-02 03:55:00.702700", "stderr": "touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory\n/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent", "stderr_lines": ["touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory", "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent"], "stdout": "", "stdout_lines": []}
+2018-07-02 03:55:00,746 p=3124 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 03:55:00,746 p=3124 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 03:55:00,746 p=3124 u=kvnblue |  localhost                  : ok=6    changed=3    unreachable=0    failed=1   
+2018-07-02 03:56:14,074 p=3657 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 03:56:14,109 p=3657 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 03:56:15,014 p=3657 u=kvnblue |  ok: [localhost]
+2018-07-02 03:56:15,051 p=3657 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 03:56:19,801 p=3657 u=kvnblue |  ok: [localhost]
+2018-07-02 03:56:19,841 p=3657 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 03:56:20,294 p=3657 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/startup.sh", "delta": "0:00:00.011568", "end": "2018-07-02 03:56:20.265385", "msg": "non-zero return code", "rc": 2, "start": "2018-07-02 03:56:20.253817", "stderr": "touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory\n/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent", "stderr_lines": ["touch: cannot touch '/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out': No such file or directory", "/home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: 439: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/bin/catalina.sh: cannot create /home/kvnblue/EsmAns/EsmProj/apache-tomcat-7.0.88-src/logs/catalina.out: Directory nonexistent"], "stdout": "", "stdout_lines": []}
+2018-07-02 03:56:20,298 p=3657 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-02 03:56:20,299 p=3657 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 03:56:20,299 p=3657 u=kvnblue |  localhost                  : ok=2    changed=0    unreachable=0    failed=1   
+2018-07-02 05:02:29,538 p=4694 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 05:02:29,573 p=4694 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 05:02:30,563 p=4694 u=kvnblue |  ok: [localhost]
+2018-07-02 05:02:30,601 p=4694 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 05:02:31,598 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:31,657 p=4694 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 05:02:32,978 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:33,028 p=4694 u=kvnblue |  TASK [Esm : change startup.sh file permissions] ********************************
+2018-07-02 05:02:33,463 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:33,505 p=4694 u=kvnblue |  TASK [Esm : change catalina.sh file permissions] *******************************
+2018-07-02 05:02:33,796 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:33,842 p=4694 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 05:02:38,724 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:38,768 p=4694 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 05:02:39,209 p=4694 u=kvnblue |  changed: [localhost]
+2018-07-02 05:02:39,212 p=4694 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 05:02:39,213 p=4694 u=kvnblue |  localhost                  : ok=7    changed=6    unreachable=0    failed=0   
+2018-07-02 10:09:38,831 p=1942 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-02 10:09:38,887 p=1942 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-02 10:09:40,864 p=1942 u=kvnblue |  ok: [localhost]
+2018-07-02 10:09:40,914 p=1942 u=kvnblue |  TASK [Esm : Copy Tomcat tar file to EsmProj folder] ****************************
+2018-07-02 10:09:42,803 p=1942 u=kvnblue |  ok: [localhost]
+2018-07-02 10:09:42,857 p=1942 u=kvnblue |  TASK [Esm : Extract Tomcat tar file] *******************************************
+2018-07-02 10:09:45,591 p=1942 u=kvnblue |  changed: [localhost]
+2018-07-02 10:09:45,651 p=1942 u=kvnblue |  TASK [Esm : change startup.sh file permissions] ********************************
+2018-07-02 10:09:46,092 p=1942 u=kvnblue |  changed: [localhost]
+2018-07-02 10:09:46,150 p=1942 u=kvnblue |  TASK [Esm : change catalina.sh file permissions] *******************************
+2018-07-02 10:09:46,576 p=1942 u=kvnblue |  changed: [localhost]
+2018-07-02 10:09:46,627 p=1942 u=kvnblue |  TASK [Esm : Copy Esm dist folder to tomcat webapps root folder] ****************
+2018-07-02 10:09:55,404 p=1942 u=kvnblue |  ok: [localhost]
+2018-07-02 10:09:55,478 p=1942 u=kvnblue |  TASK [Esm : start tomcat service] **********************************************
+2018-07-02 10:09:56,321 p=1942 u=kvnblue |  changed: [localhost]
+2018-07-02 10:09:56,331 p=1942 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-02 10:09:56,339 p=1942 u=kvnblue |  localhost                  : ok=7    changed=4    unreachable=0    failed=0   
+2018-07-22 21:51:11,903 p=3176 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 21:51:12,188 p=3176 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 21:51:12,238 p=3176 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 21:51:13,143 p=3176 u=kvnblue |  ok: [localhost]
+2018-07-22 21:51:13,163 p=3176 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 21:51:13,518 p=3176 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 .", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 21:51:13,522 p=3176 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 21:51:13,522 p=3176 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 21:51:13,522 p=3176 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 21:54:57,260 p=3286 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 21:54:57,516 p=3286 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 21:54:57,544 p=3286 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 21:54:58,438 p=3286 u=kvnblue |  ok: [localhost]
+2018-07-22 21:54:58,476 p=3286 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 21:54:58,850 p=3286 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 .", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 21:54:58,853 p=3286 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 21:54:58,854 p=3286 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 21:54:58,854 p=3286 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 21:56:10,300 p=3373 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 21:56:10,536 p=3373 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 21:56:10,564 p=3373 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 21:56:11,484 p=3373 u=kvnblue |  ok: [localhost]
+2018-07-22 21:56:11,521 p=3373 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 21:56:11,904 p=3373 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 .", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 21:56:11,908 p=3373 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 21:56:11,909 p=3373 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 21:56:11,909 p=3373 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 21:59:54,156 p=3494 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 21:59:54,419 p=3494 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 21:59:54,447 p=3494 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 21:59:55,350 p=3494 u=kvnblue |  ok: [localhost]
+2018-07-22 21:59:55,385 p=3494 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 21:59:55,773 p=3494 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 /home/kvnblue", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 21:59:55,777 p=3494 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 21:59:55,777 p=3494 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 21:59:55,778 p=3494 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:04:52,233 p=3604 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:04:52,451 p=3604 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:04:52,480 p=3604 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:04:53,362 p=3604 u=kvnblue |  ok: [localhost]
+2018-07-22 22:04:53,398 p=3604 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 22:04:53,746 p=3604 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 /home/kvnblue/EsmAns", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 22:04:53,749 p=3604 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:04:53,750 p=3604 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:04:53,750 p=3604 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:05:56,336 p=3690 u=kvnblue |  ERROR! You must specify a playbook file to run
+2018-07-22 22:07:16,253 p=3713 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:07:16,467 p=3713 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:07:16,495 p=3713 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:07:17,375 p=3713 u=kvnblue |  ok: [localhost]
+2018-07-22 22:07:17,410 p=3713 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 22:07:17,766 p=3713 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 /home/kvnblue/EsmAns", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 22:07:17,770 p=3713 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:07:17,770 p=3713 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:07:17,770 p=3713 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:07:44,051 p=3806 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:07:44,299 p=3806 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:07:44,324 p=3806 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:07:45,219 p=3806 u=kvnblue |  ok: [localhost]
+2018-07-22 22:07:45,254 p=3806 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 22:07:45,651 p=3806 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 /home/kvnblue/EsmAns", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 22:07:45,655 p=3806 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:07:45,655 p=3806 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:07:45,656 p=3806 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:08:52,505 p=3902 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:08:52,726 p=3902 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:08:52,753 p=3902 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:08:53,678 p=3902 u=kvnblue |  ok: [localhost]
+2018-07-22 22:08:53,716 p=3902 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 22:08:54,122 p=3902 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 .", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 22:08:54,125 p=3902 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:08:54,125 p=3902 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:08:54,125 p=3902 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:29:25,443 p=4089 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:29:25,659 p=4089 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:29:25,689 p=4089 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:29:26,576 p=4089 u=kvnblue |  ok: [localhost]
+2018-07-22 22:29:26,611 p=4089 u=kvnblue |  TASK [Esm : install apt packages] **********************************************
+2018-07-22 22:29:27,187 p=4089 u=kvnblue |  failed: [localhost] (item=-python-pip) => {"changed": false, "cmd": "apt-get update", "item": "-python-pip", "msg": "W: chmod 0700 of directory /var/lib/apt/lists/partial failed - SetupAPTPartialDirectory (1: Operation not permitted)\nE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)\nE: Unable to lock directory /var/lib/apt/lists/\nW: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)\nW: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)", "rc": 100, "stderr": "W: chmod 0700 of directory /var/lib/apt/lists/partial failed - SetupAPTPartialDirectory (1: Operation not permitted)\nE: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)\nE: Unable to lock directory /var/lib/apt/lists/\nW: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)\nW: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)\n", "stderr_lines": ["W: chmod 0700 of directory /var/lib/apt/lists/partial failed - SetupAPTPartialDirectory (1: Operation not permitted)", "E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)", "E: Unable to lock directory /var/lib/apt/lists/", "W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)", "W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)"], "stdout": "Reading package lists...\n", "stdout_lines": ["Reading package lists..."]}
+2018-07-22 22:29:27,193 p=4089 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:29:27,193 p=4089 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:29:27,194 p=4089 u=kvnblue |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-07-22 22:31:36,005 p=4189 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:31:36,169 p=4189 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:31:36,443 p=4189 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:31:36,486 p=4189 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:31:36,919 p=4189 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
+2018-07-22 22:31:36,923 p=4189 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:31:36,923 p=4189 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:31:36,923 p=4189 u=kvnblue |  localhost                  : ok=0    changed=0    unreachable=0    failed=1   
+2018-07-22 22:43:24,686 p=4259 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:43:31,509 p=4259 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:43:31,666 p=4259 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:43:31,887 p=4259 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:43:31,914 p=4259 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:43:32,807 p=4259 u=kvnblue |  ok: [localhost]
+2018-07-22 22:43:32,842 p=4259 u=kvnblue |  TASK [Esm : install apt packages] **********************************************
+2018-07-22 22:43:54,464 p=4259 u=kvnblue |  ok: [localhost] => (item=-python-pip)
+2018-07-22 22:43:54,500 p=4259 u=kvnblue |  TASK [Esm : install docker-py] *************************************************
+2018-07-22 22:43:54,818 p=4259 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Unable to find any of pip2, pip to use.  pip needs to be installed."}
+2018-07-22 22:43:54,821 p=4259 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:43:54,822 p=4259 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:43:54,822 p=4259 u=kvnblue |  localhost                  : ok=2    changed=0    unreachable=0    failed=1   
+2018-07-22 22:48:13,533 p=4748 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:48:17,446 p=4748 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:48:17,608 p=4748 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:48:17,794 p=4748 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:48:17,823 p=4748 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:48:18,645 p=4748 u=kvnblue |  ok: [localhost]
+2018-07-22 22:48:18,677 p=4748 u=kvnblue |  TASK [Esm : install apt packages] **********************************************
+2018-07-22 22:48:19,526 p=4748 u=kvnblue |  ok: [localhost] => (item=python-pip)
+2018-07-22 22:48:19,564 p=4748 u=kvnblue |  TASK [Esm : install docker-py] *************************************************
+2018-07-22 22:48:19,891 p=4748 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Unable to find any of pip2, pip to use.  pip needs to be installed."}
+2018-07-22 22:48:19,895 p=4748 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:48:19,896 p=4748 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:48:19,896 p=4748 u=kvnblue |  localhost                  : ok=2    changed=0    unreachable=0    failed=1   
+2018-07-22 22:56:58,106 p=4886 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:57:02,527 p=4886 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:57:02,687 p=4886 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 22:57:02,876 p=4886 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 22:57:02,907 p=4886 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 22:57:03,744 p=4886 u=kvnblue |  ok: [localhost]
+2018-07-22 22:57:03,778 p=4886 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 22:57:08,969 p=4886 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 22:57:08,973 p=4886 u=kvnblue |  changed: [localhost]
+2018-07-22 22:57:09,037 p=4886 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 22:58:40,240 p=4886 u=kvnblue |  changed: [localhost]
+2018-07-22 22:58:40,278 p=4886 u=kvnblue |  TASK [Esm : install docker-py] *************************************************
+2018-07-22 22:58:48,144 p=4886 u=kvnblue |  changed: [localhost]
+2018-07-22 22:58:48,182 p=4886 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 22:58:48,398 p=4886 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "cmd": "docker build -t esmlogin:v1 .", "msg": "[Errno 2] No such file or directory", "rc": 2}
+2018-07-22 22:58:48,401 p=4886 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 22:58:48,402 p=4886 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 22:58:48,402 p=4886 u=kvnblue |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-07-22 23:01:45,017 p=25635 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:01:48,753 p=25635 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:01:48,908 p=25635 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:01:49,097 p=25635 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 23:01:49,125 p=25635 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 23:01:49,995 p=25635 u=kvnblue |  ok: [localhost]
+2018-07-22 23:01:50,030 p=25635 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 23:01:53,586 p=25635 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 23:01:53,586 p=25635 u=kvnblue |  changed: [localhost]
+2018-07-22 23:01:53,623 p=25635 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:01:54,488 p=25635 u=kvnblue |  changed: [localhost]
+2018-07-22 23:01:54,530 p=25635 u=kvnblue |  TASK [Esm : install docker-py] *************************************************
+2018-07-22 23:01:55,846 p=25635 u=kvnblue |  ok: [localhost]
+2018-07-22 23:01:55,883 p=25635 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 23:01:56,332 p=25635 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-07-22 23:01:56,337 p=25635 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 23:01:56,337 p=25635 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 23:01:56,338 p=25635 u=kvnblue |  localhost                  : ok=4    changed=2    unreachable=0    failed=1   
+2018-07-22 23:04:10,932 p=26075 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:04:14,509 p=26075 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:04:14,672 p=26075 u=kvnblue |  ERROR! this task 'docker_image' has extra params, which is only allowed in the following modules: shell, win_shell, include_vars, add_host, raw, include_role, meta, set_fact, include, import_tasks, script, import_role, include_tasks, group_by, command, win_command
+
+The error appears to have been in '/home/kvnblue/EsmAns/roles/Esm/tasks/main.yml': line 12, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: build the docker image for ESM application
+  ^ here
+
+2018-07-22 23:05:20,882 p=26090 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:05:25,541 p=26090 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:05:25,696 p=26090 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:05:25,883 p=26090 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 23:05:25,914 p=26090 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 23:05:26,763 p=26090 u=kvnblue |  ok: [localhost]
+2018-07-22 23:05:26,799 p=26090 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 23:05:30,351 p=26090 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 23:05:30,352 p=26090 u=kvnblue |  changed: [localhost]
+2018-07-22 23:05:30,389 p=26090 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:05:31,254 p=26090 u=kvnblue |  changed: [localhost]
+2018-07-22 23:05:31,292 p=26090 u=kvnblue |  TASK [Esm : install docker-py] *************************************************
+2018-07-22 23:05:32,616 p=26090 u=kvnblue |  ok: [localhost]
+2018-07-22 23:05:32,655 p=26090 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 23:05:33,079 p=26090 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-07-22 23:05:33,084 p=26090 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 23:05:33,084 p=26090 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 23:05:33,084 p=26090 u=kvnblue |  localhost                  : ok=4    changed=2    unreachable=0    failed=1   
+2018-07-22 23:06:25,299 p=26531 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:06:37,358 p=26531 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:06:37,512 p=26531 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:06:37,700 p=26531 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 23:06:37,728 p=26531 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 23:06:38,562 p=26531 u=kvnblue |  ok: [localhost]
+2018-07-22 23:06:38,599 p=26531 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 23:06:42,327 p=26531 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 23:06:42,328 p=26531 u=kvnblue |  changed: [localhost]
+2018-07-22 23:06:42,363 p=26531 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:06:43,227 p=26531 u=kvnblue |  changed: [localhost]
+2018-07-22 23:06:43,264 p=26531 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 23:06:43,693 p=26531 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-07-22 23:06:43,696 p=26531 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 23:06:43,697 p=26531 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 23:06:43,697 p=26531 u=kvnblue |  localhost                  : ok=3    changed=2    unreachable=0    failed=1   
+2018-07-22 23:07:37,670 p=26927 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:07:41,720 p=26927 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:07:41,876 p=26927 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:07:42,066 p=26927 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 23:07:42,095 p=26927 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 23:07:42,927 p=26927 u=kvnblue |  ok: [localhost]
+2018-07-22 23:07:42,962 p=26927 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 23:07:46,626 p=26927 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 23:07:46,627 p=26927 u=kvnblue |  changed: [localhost]
+2018-07-22 23:07:46,663 p=26927 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:07:47,548 p=26927 u=kvnblue |  changed: [localhost]
+2018-07-22 23:07:47,590 p=26927 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:07:48,781 p=26927 u=kvnblue |  changed: [localhost]
+2018-07-22 23:07:48,837 p=26927 u=kvnblue |  TASK [Esm : build the docker image for ESM application] ************************
+2018-07-22 23:07:49,254 p=26927 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-07-22 23:07:49,259 p=26927 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 23:07:49,259 p=26927 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 23:07:49,259 p=26927 u=kvnblue |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-07-22 23:12:40,845 p=27383 u=kvnblue |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in 
+favor of the "become" command line arguments. This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:12:44,476 p=27383 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:12:44,631 p=27383 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-07-22 23:12:44,822 p=27383 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-07-22 23:12:44,849 p=27383 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-07-22 23:12:45,675 p=27383 u=kvnblue |  ok: [localhost]
+2018-07-22 23:12:45,711 p=27383 u=kvnblue |  TASK [Esm : update apt packages] ***********************************************
+2018-07-22 23:12:49,524 p=27383 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-07-22 23:12:49,525 p=27383 u=kvnblue |  changed: [localhost]
+2018-07-22 23:12:49,562 p=27383 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:12:50,450 p=27383 u=kvnblue |  changed: [localhost]
+2018-07-22 23:12:50,488 p=27383 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:12:51,826 p=27383 u=kvnblue |  changed: [localhost]
+2018-07-22 23:12:51,862 p=27383 u=kvnblue |  TASK [Esm : install apt pkgs] **************************************************
+2018-07-22 23:12:52,768 p=27383 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["apt-get", "install", "docker.io"], "delta": "0:00:00.694221", "end": "2018-07-22 23:12:52.744730", "msg": "non-zero return code", "rc": 1, "start": "2018-07-22 23:12:52.050509", "stderr": "", "stderr_lines": [], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following additional packages will be installed:\n  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan\nSuggested packages:\n  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils\n  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk\n  gitweb git-arch git-cvs git-mediawiki git-svn\nThe following NEW packages will be installed:\n  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan\n0 upgraded, 7 newly installed, 0 to remove and 170 not upgraded.\nNeed to get 21.1 MB of archives.\nAfter this operation, 116 MB of additional disk space will be used.\nDo you want to continue? [Y/n] Abort.", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information...", "The following additional packages will be installed:", "  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan", "Suggested packages:", "  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils", "  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk", "  gitweb git-arch git-cvs git-mediawiki git-svn", "The following NEW packages will be installed:", "  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan", "0 upgraded, 7 newly installed, 0 to remove and 170 not upgraded.", "Need to get 21.1 MB of archives.", "After this operation, 116 MB of additional disk space will be used.", "Do you want to continue? [Y/n] Abort."]}
+2018-07-22 23:12:52,773 p=27383 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-07-22 23:12:52,773 p=27383 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-07-22 23:12:52,774 p=27383 u=kvnblue |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-06 06:23:40,033 p=2674 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:23:40,275 p=2674 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:23:40,534 p=2674 u=kvnblue |  PLAY [localhost] ***************************************************************
+2018-08-06 06:23:40,582 p=2674 u=kvnblue |  TASK [Gathering Facts] *********************************************************
+2018-08-06 06:23:41,041 p=2674 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
+2018-08-06 06:23:41,044 p=2674 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 06:23:41,045 p=2674 u=kvnblue |  PLAY RECAP *********************************************************************
+2018-08-06 06:23:41,045 p=2674 u=kvnblue |  localhost                  : ok=0    changed=0    unreachable=0    failed=1   
+2018-08-06 06:24:24,137 p=2706 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:24:24,299 p=2706 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:24:24,501 p=2706 u=root |  PLAY [localhost] ***************************************************************
+2018-08-06 06:24:24,530 p=2706 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-06 06:24:25,471 p=2706 u=root |  ok: [localhost]
+2018-08-06 06:24:25,517 p=2706 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-06 06:24:29,293 p=2706 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-06 06:24:29,294 p=2706 u=root |  changed: [localhost]
+2018-08-06 06:24:29,330 p=2706 u=root |  TASK [Esm : install apt pkgs] **************************************************
+2018-08-06 06:24:29,563 p=2706 u=root |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["apt-get", "-y", "install", "python-pip"], "delta": "0:00:00.009871", "end": "2018-08-06 06:24:29.541482", "msg": "non-zero return code", "rc": 100, "start": "2018-08-06 06:24:29.531611", "stderr": "E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)\nE: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?", "stderr_lines": ["E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)", "E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?"], "stdout": "", "stdout_lines": []}
+2018-08-06 06:24:29,566 p=2706 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 06:24:29,567 p=2706 u=root |  PLAY RECAP *********************************************************************
+2018-08-06 06:24:29,567 p=2706 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=1   
+2018-08-06 06:26:04,974 p=3141 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:26:05,267 p=3141 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:26:05,604 p=3141 u=root |  PLAY [localhost] ***************************************************************
+2018-08-06 06:26:05,649 p=3141 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-06 06:26:07,253 p=3141 u=root |  ok: [localhost]
+2018-08-06 06:26:07,323 p=3141 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-06 06:26:15,880 p=3141 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-06 06:26:15,881 p=3141 u=root |  changed: [localhost]
+2018-08-06 06:26:15,954 p=3141 u=root |  TASK [Esm : install apt pkgs] **************************************************
+2018-08-06 06:26:16,485 p=3141 u=root |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["apt-get", "-y", "install", "python-pip"], "delta": "0:00:00.031382", "end": "2018-08-06 06:26:16.419968", "msg": "non-zero return code", "rc": 100, "start": "2018-08-06 06:26:16.388586", "stderr": "E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)\nE: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?", "stderr_lines": ["E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)", "E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?"], "stdout": "", "stdout_lines": []}
+2018-08-06 06:26:16,505 p=3141 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 06:26:16,506 p=3141 u=root |  PLAY RECAP *********************************************************************
+2018-08-06 06:26:16,506 p=3141 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=1   
+2018-08-06 06:27:07,866 p=3709 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:27:08,146 p=3709 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:27:08,514 p=3709 u=root |  PLAY [localhost] ***************************************************************
+2018-08-06 06:27:08,563 p=3709 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-06 06:27:10,371 p=3709 u=root |  ok: [localhost]
+2018-08-06 06:27:10,454 p=3709 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-06 06:27:44,235 p=3709 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-06 06:27:44,236 p=3709 u=root |  changed: [localhost]
+2018-08-06 06:27:44,268 p=3709 u=root |  TASK [Esm : install apt pkgs] **************************************************
+2018-08-06 06:27:45,151 p=3709 u=root |  changed: [localhost]
+2018-08-06 06:27:45,189 p=3709 u=root |  TASK [Esm : install apt pkgs] **************************************************
+2018-08-06 06:27:46,741 p=3709 u=root |  changed: [localhost]
+2018-08-06 06:27:46,786 p=3709 u=root |  TASK [Esm : install apt pkgs] **************************************************
+2018-08-06 06:27:47,830 p=3709 u=root |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["apt-get", "install", "docker.io"], "delta": "0:00:00.821241", "end": "2018-08-06 06:27:47.797459", "msg": "non-zero return code", "rc": 1, "start": "2018-08-06 06:27:46.976218", "stderr": "", "stderr_lines": [], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following additional packages will be installed:\n  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan\nSuggested packages:\n  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils\n  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk\n  gitweb git-arch git-cvs git-mediawiki git-svn\nThe following NEW packages will be installed:\n  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan\n0 upgraded, 7 newly installed, 0 to remove and 208 not upgraded.\nNeed to get 21.1 MB of archives.\nAfter this operation, 116 MB of additional disk space will be used.\nDo you want to continue? [Y/n] Abort.", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information...", "The following additional packages will be installed:", "  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan", "Suggested packages:", "  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils", "  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk", "  gitweb git-arch git-cvs git-mediawiki git-svn", "The following NEW packages will be installed:", "  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan", "0 upgraded, 7 newly installed, 0 to remove and 208 not upgraded.", "Need to get 21.1 MB of archives.", "After this operation, 116 MB of additional disk space will be used.", "Do you want to continue? [Y/n] Abort."]}
+2018-08-06 06:27:47,833 p=3709 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 06:27:47,834 p=3709 u=root |  PLAY RECAP *********************************************************************
+2018-08-06 06:27:47,834 p=3709 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-06 06:33:42,808 p=4400 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default). This feature will 
+be removed in version 2.6. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:33:42,977 p=4400 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is discouraged. The module documentation details page may explain
+ more about this rationale.. This feature will be removed in a future release. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 06:33:43,176 p=4400 u=kvnblue |  PLAY [localhost] *****************************************************************************************************************************
+2018-08-06 06:33:43,200 p=4400 u=kvnblue |  TASK [Gathering Facts] ***********************************************************************************************************************
+2018-08-06 06:33:44,050 p=4400 u=kvnblue |  ok: [localhost]
+2018-08-06 06:33:44,090 p=4400 u=kvnblue |  TASK [Esm : update apt packages] *************************************************************************************************************
+2018-08-06 06:33:48,127 p=4400 u=kvnblue |   [WARNING]: Consider using the apt module rather than running apt-get.  If you need to use command because apt is insufficient you can add
+warn=False to this command task or set command_warnings=False in ansible.cfg to get rid of this message.
+
+2018-08-06 06:33:48,128 p=4400 u=kvnblue |  changed: [localhost]
+2018-08-06 06:33:48,170 p=4400 u=kvnblue |  TASK [Esm : install apt pkgs for Python] *****************************************************************************************************
+2018-08-06 06:33:49,106 p=4400 u=kvnblue |  changed: [localhost]
+2018-08-06 06:33:49,147 p=4400 u=kvnblue |  TASK [Esm : install apt pkgs for Docker] *****************************************************************************************************
+2018-08-06 06:33:50,634 p=4400 u=kvnblue |  changed: [localhost]
+2018-08-06 06:33:50,675 p=4400 u=kvnblue |  TASK [Esm : install apt pkgs docker IO] ******************************************************************************************************
+2018-08-06 06:33:51,607 p=4400 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["apt-get", "install", "docker.io"], "delta": "0:00:00.701275", "end": "2018-08-06 06:33:51.586141", "msg": "non-zero return code", "rc": 1, "start": "2018-08-06 06:33:50.884866", "stderr": "", "stderr_lines": [], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following additional packages will be installed:\n  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan\nSuggested packages:\n  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils\n  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk\n  gitweb git-arch git-cvs git-mediawiki git-svn\nThe following NEW packages will be installed:\n  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan\n0 upgraded, 7 newly installed, 0 to remove and 208 not upgraded.\nNeed to get 21.1 MB of archives.\nAfter this operation, 116 MB of additional disk space will be used.\nDo you want to continue? [Y/n] Abort.", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information...", "The following additional packages will be installed:", "  bridge-utils cgroupfs-mount git git-man liberror-perl ubuntu-fan", "Suggested packages:", "  aufs-tools btrfs-tools debootstrap docker-doc rinse zfs-fuse | zfsutils", "  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk", "  gitweb git-arch git-cvs git-mediawiki git-svn", "The following NEW packages will be installed:", "  bridge-utils cgroupfs-mount docker.io git git-man liberror-perl ubuntu-fan", "0 upgraded, 7 newly installed, 0 to remove and 208 not upgraded.", "Need to get 21.1 MB of archives.", "After this operation, 116 MB of additional disk space will be used.", "Do you want to continue? [Y/n] Abort."]}
+2018-08-06 06:33:51,610 p=4400 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 06:33:51,611 p=4400 u=kvnblue |  PLAY RECAP ***********************************************************************************************************************************
+2018-08-06 06:33:51,611 p=4400 u=kvnblue |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-06 07:01:06,377 p=5200 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default). This feature will 
+be removed in version 2.6. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:06,558 p=5200 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is discouraged. The module documentation details page may explain
+ more about this rationale.. This feature will be removed in a future release. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:06,772 p=5200 u=kvnblue |  PLAY [localhost] *****************************************************************************************************************************
+2018-08-06 07:01:06,804 p=5200 u=kvnblue |  TASK [Gathering Facts] ***********************************************************************************************************************
+2018-08-06 07:01:07,277 p=5200 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
+2018-08-06 07:01:07,280 p=5200 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 07:01:07,280 p=5200 u=kvnblue |  PLAY RECAP ***********************************************************************************************************************************
+2018-08-06 07:01:07,280 p=5200 u=kvnblue |  localhost                  : ok=0    changed=0    unreachable=0    failed=1   
+2018-08-06 07:01:20,737 p=5230 u=kvnblue |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default). This feature will 
+be removed in version 2.6. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:20,890 p=5230 u=kvnblue |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is discouraged. The module documentation details page may explain
+ more about this rationale.. This feature will be removed in a future release. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:21,102 p=5230 u=kvnblue |  PLAY [localhost] *****************************************************************************************************************************
+2018-08-06 07:01:21,134 p=5230 u=kvnblue |  TASK [Gathering Facts] ***********************************************************************************************************************
+2018-08-06 07:01:21,613 p=5230 u=kvnblue |  fatal: [localhost]: FAILED! => {"changed": false, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE", "rc": 1}
+2018-08-06 07:01:21,617 p=5230 u=kvnblue |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 07:01:21,617 p=5230 u=kvnblue |  PLAY RECAP ***********************************************************************************************************************************
+2018-08-06 07:01:21,617 p=5230 u=kvnblue |  localhost                  : ok=0    changed=0    unreachable=0    failed=1   
+2018-08-06 07:01:46,621 p=5263 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and make sure become_method is 'sudo' (default). This feature will 
+be removed in version 2.6. Deprecation warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:46,768 p=5263 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is discouraged. The module documentation details page may explain
+ more about this rationale.. This feature will be removed in a future release. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-06 07:01:46,986 p=5263 u=root |  PLAY [localhost] *****************************************************************************************************************************
+2018-08-06 07:01:47,010 p=5263 u=root |  TASK [Gathering Facts] ***********************************************************************************************************************
+2018-08-06 07:01:47,862 p=5263 u=root |  ok: [localhost]
+2018-08-06 07:01:47,903 p=5263 u=root |  TASK [Esm : update apt packages] *************************************************************************************************************
+2018-08-06 07:01:52,494 p=5263 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you need to use command because apt is insufficient you can add
+warn=False to this command task or set command_warnings=False in ansible.cfg to get rid of this message.
+
+2018-08-06 07:01:52,495 p=5263 u=root |  changed: [localhost]
+2018-08-06 07:01:52,535 p=5263 u=root |  TASK [Esm : install apt pkgs for Python] *****************************************************************************************************
+2018-08-06 07:01:53,503 p=5263 u=root |  changed: [localhost]
+2018-08-06 07:01:53,545 p=5263 u=root |  TASK [Esm : install apt pkgs for Docker] *****************************************************************************************************
+2018-08-06 07:01:55,367 p=5263 u=root |  changed: [localhost]
+2018-08-06 07:01:55,409 p=5263 u=root |  TASK [Esm : build the docker image for ESM application] **************************************************************************************
+2018-08-06 07:01:55,908 p=5263 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-08-06 07:01:55,912 p=5263 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-06 07:01:55,912 p=5263 u=root |  PLAY RECAP ***********************************************************************************************************************************
+2018-08-06 07:01:55,912 p=5263 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 06:49:28,571 p=16575 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:49:28,882 p=16575 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:49:29,180 p=16575 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 06:49:29,228 p=16575 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 06:49:30,273 p=16575 u=root |  ok: [localhost]
+2018-08-10 06:49:30,298 p=16575 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 06:50:00,492 p=16575 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 06:50:00,492 p=16575 u=root |  changed: [localhost]
+2018-08-10 06:50:00,535 p=16575 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 06:50:01,569 p=16575 u=root |  changed: [localhost]
+2018-08-10 06:50:01,621 p=16575 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 06:50:03,331 p=16575 u=root |  changed: [localhost]
+2018-08-10 06:50:03,378 p=16575 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 06:50:03,860 p=16575 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to import docker-py - No module named errors. Try `pip install docker-py`"}
+2018-08-10 06:50:03,865 p=16575 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 06:50:03,866 p=16575 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 06:50:03,870 p=16575 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 06:54:00,361 p=17384 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:54:00,544 p=17384 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:54:00,744 p=17384 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 06:54:00,772 p=17384 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 06:54:01,692 p=17384 u=root |  ok: [localhost]
+2018-08-10 06:54:01,730 p=17384 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 06:54:05,536 p=17384 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 06:54:05,537 p=17384 u=root |  changed: [localhost]
+2018-08-10 06:54:05,578 p=17384 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 06:54:06,569 p=17384 u=root |  changed: [localhost]
+2018-08-10 06:54:06,615 p=17384 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 06:54:13,771 p=17384 u=root |  changed: [localhost]
+2018-08-10 06:54:13,817 p=17384 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 06:54:14,355 p=17384 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Error connecting: load_config() got an unexpected keyword argument 'config_dict'"}
+2018-08-10 06:54:14,360 p=17384 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 06:54:14,360 p=17384 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 06:54:14,361 p=17384 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 06:55:58,226 p=17811 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:55:58,419 p=17811 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 06:55:58,634 p=17811 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 06:55:58,657 p=17811 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 06:55:59,630 p=17811 u=root |  ok: [localhost]
+2018-08-10 06:55:59,681 p=17811 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 06:56:03,504 p=17811 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 06:56:03,505 p=17811 u=root |  changed: [localhost]
+2018-08-10 06:56:03,545 p=17811 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 06:56:04,085 p=17811 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Error connecting: load_config() got an unexpected keyword argument 'config_dict'"}
+2018-08-10 06:56:04,090 p=17811 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 06:56:04,090 p=17811 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 06:56:04,090 p=17811 u=root |  localhost                  : ok=2    changed=1    unreachable=0    failed=1   
+2018-08-10 07:03:42,465 p=18218 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:03:42,659 p=18218 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:03:42,866 p=18218 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 07:03:42,894 p=18218 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 07:03:43,795 p=18218 u=root |  ok: [localhost]
+2018-08-10 07:03:43,832 p=18218 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 07:03:47,635 p=18218 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 07:03:47,636 p=18218 u=root |  changed: [localhost]
+2018-08-10 07:03:47,681 p=18218 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 07:03:48,640 p=18218 u=root |  changed: [localhost]
+2018-08-10 07:03:48,698 p=18218 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 07:03:51,859 p=18218 u=root |  changed: [localhost]
+2018-08-10 07:03:51,902 p=18218 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 07:03:52,412 p=18218 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Error connecting: load_config() got an unexpected keyword argument 'config_dict'"}
+2018-08-10 07:03:52,417 p=18218 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 07:03:52,418 p=18218 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 07:03:52,418 p=18218 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 07:04:47,865 p=18637 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:04:48,055 p=18637 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:04:48,264 p=18637 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 07:04:48,297 p=18637 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 07:04:49,198 p=18637 u=root |  ok: [localhost]
+2018-08-10 07:04:49,238 p=18637 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 07:04:53,327 p=18637 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 07:04:53,329 p=18637 u=root |  changed: [localhost]
+2018-08-10 07:04:53,375 p=18637 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 07:04:54,336 p=18637 u=root |  changed: [localhost]
+2018-08-10 07:04:54,379 p=18637 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 07:04:55,836 p=18637 u=root |  changed: [localhost]
+2018-08-10 07:04:55,883 p=18637 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 07:04:56,367 p=18637 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Error connecting: load_config() got an unexpected keyword argument 'config_dict'"}
+2018-08-10 07:04:56,371 p=18637 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 07:04:56,371 p=18637 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 07:04:56,372 p=18637 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 07:06:29,540 p=19067 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:06:29,740 p=19067 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:06:29,982 p=19067 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 07:06:30,011 p=19067 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 07:06:30,922 p=19067 u=root |  ok: [localhost]
+2018-08-10 07:06:30,959 p=19067 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 07:06:35,488 p=19067 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 07:06:35,490 p=19067 u=root |  changed: [localhost]
+2018-08-10 07:06:35,528 p=19067 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 07:06:36,494 p=19067 u=root |  changed: [localhost]
+2018-08-10 07:06:36,545 p=19067 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 07:06:41,222 p=19067 u=root |  changed: [localhost]
+2018-08-10 07:06:41,262 p=19067 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 07:06:41,736 p=19067 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Error connecting: load_config() got an unexpected keyword argument 'config_dict'"}
+2018-08-10 07:06:41,740 p=19067 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 07:06:41,741 p=19067 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 07:06:41,741 p=19067 u=root |  localhost                  : ok=4    changed=3    unreachable=0    failed=1   
+2018-08-10 07:08:03,248 p=19495 u=root |  [DEPRECATION WARNING]: Instead of sudo/sudo_user, use become/become_user and 
+make sure become_method is 'sudo' (default). This feature will be removed in 
+version 2.6. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:08:03,460 p=19495 u=root |  [DEPRECATION WARNING]: docker is kept for backwards compatibility but usage is 
+discouraged. The module documentation details page may explain more about this 
+rationale.. This feature will be removed in a future release. Deprecation 
+warnings can be disabled by setting deprecation_warnings=False in ansible.cfg.
+2018-08-10 07:08:03,670 p=19495 u=root |  PLAY [localhost] ***************************************************************
+2018-08-10 07:08:03,698 p=19495 u=root |  TASK [Gathering Facts] *********************************************************
+2018-08-10 07:08:04,637 p=19495 u=root |  ok: [localhost]
+2018-08-10 07:08:04,676 p=19495 u=root |  TASK [Esm : update apt packages] ***********************************************
+2018-08-10 07:08:09,177 p=19495 u=root |   [WARNING]: Consider using the apt module rather than running apt-get.  If you
+need to use command because apt is insufficient you can add warn=False to this
+command task or set command_warnings=False in ansible.cfg to get rid of this
+message.
+
+2018-08-10 07:08:09,178 p=19495 u=root |  changed: [localhost]
+2018-08-10 07:08:09,223 p=19495 u=root |  TASK [Esm : install apt pkgs for Python] ***************************************
+2018-08-10 07:08:10,219 p=19495 u=root |  changed: [localhost]
+2018-08-10 07:08:10,259 p=19495 u=root |  TASK [Esm : install apt pkgs for Docker] ***************************************
+2018-08-10 07:08:12,990 p=19495 u=root |  changed: [localhost]
+2018-08-10 07:08:13,042 p=19495 u=root |  TASK [Esm : install apt pkgs for Docker Compose] *******************************
+2018-08-10 07:08:21,527 p=19495 u=root |  changed: [localhost]
+2018-08-10 07:08:21,565 p=19495 u=root |  TASK [Esm : build the docker image for ESM application] ************************
+2018-08-10 07:08:22,046 p=19495 u=root |  fatal: [localhost]: FAILED! => {"changed": false, "msg": "Cannot have both the docker-py and docker python modules installed together as they use the same namespace and cause a corrupt installation. Please uninstall both packages, and re-install only the docker-py or docker python module"}
+2018-08-10 07:08:22,051 p=19495 u=root |  	to retry, use: --limit @/home/kvnblue/EsmAns/roles/Esm/esm.retry
+
+2018-08-10 07:08:22,051 p=19495 u=root |  PLAY RECAP *********************************************************************
+2018-08-10 07:08:22,051 p=19495 u=root |  localhost                  : ok=5    changed=4    unreachable=0    failed=1   

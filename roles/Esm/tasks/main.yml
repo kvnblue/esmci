@@ -1,0 +1,29 @@
+---
+# tasks file for ./roles/Esm
+- name: update apt packages
+  command: apt-get update
+
+- name: install apt pkgs for Python
+  command: apt-get -y install python-pip
+ 
+- name: install apt pkgs for Docker
+  command: pip install 'docker-py>=1.7.0'
+
+- name: install apt pkgs for Docker Compose
+  command: pip install 'docker-compose>=1.7.0'
+
+- name: build the docker image for ESM application
+  docker_image: >
+    name=esmlogin
+    tag=v1
+    path=.
+    state=build
+
+- name: Run Docker container to launch ESM application
+  docker:
+    name: EsmSite
+    image: esmlogin:v1
+    state: reloaded
+    ports: -4200:4200
+    
+
