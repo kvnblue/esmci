@@ -1,29 +1,24 @@
 ---
 # tasks file for ./roles/Esm
-- name: update apt packages
-  command: apt-get update
-
-- name: install apt pkgs for Python
-  command: apt-get -y install python-pip
- 
-- name: install apt pkgs for Docker
-  command: pip install 'docker-py>=1.7.0'
-
-- name: install apt pkgs for Docker Compose
-  command: pip install 'docker-compose>=1.7.0'
-
-- name: build the docker image for ESM application
-  docker_image: >
-    name=esmlogin
-    tag=v1
-    path=.
-    state=build
-
-- name: Run Docker container to launch ESM application
-  docker:
-    name: EsmSite
-    image: esmlogin:v1
-    state: reloaded
-    ports: -4200:4200
-    
-
+- name: Copy Tomcat tar file to EsmProj folder
+  copy:
+    src: /home/kvnblue/Downloads/apache-tomcat-8.5.32.tar.gz
+    dest: /home/kvnblue/EsmAns/EsmProj
+- name: Extract Tomcat tar file
+  unarchive:
+    src: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-8.5.32.tar.gz
+    dest: /home/kvnblue/EsmAns/EsmProj
+- name: change startup.sh file permissions
+  file:
+    path: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-8.5.32/bin/startup.sh
+    mode: 0777
+- name: change catalina.sh file permissions
+  file:
+    path: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-8.5.32/bin/catalina.sh
+    mode: 0777
+- name: Copy Esm dist folder to tomcat webapps root folder
+  copy:
+    src: /home/kvnblue/Downloads/EsmSite/dist
+    dest: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-8.5.32/webapps/ROOT
+- name: start tomcat service
+  shell: /home/kvnblue/EsmAns/EsmProj/apache-tomcat-8.5.32/bin/startup.sh

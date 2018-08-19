@@ -1,3 +1,0 @@
-- hosts: kvnblue-VirtualBox
-  roles:
-    - nodejs

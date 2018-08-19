@@ -1,4 +1,2 @@
 - hosts: localhost
-  sudo: yes
-  roles:
-  - Esm
+  
